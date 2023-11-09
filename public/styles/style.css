@@ -1,0 +1,13 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+
+h3{
+    display: inline;
+    /* background-color: red; */
+}
+p{
+    background-color: beige;
+    display: flex;
+}

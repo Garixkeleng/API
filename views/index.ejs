@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <%= name  %>
     
+
+
+    <form id="myName" method="post">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" name="name">
+
+        <input type="submit" id="get" value="GET" formaction="/get-sec">
+
+        
+    </form>
+    <div class="div"> 
+        
+        <p>  <h3>Count  : </h3>  <%= content.count %></p>
+         <p>  <h3> Name  : </h3>  <%= content.name %>  </p>
+         <p><h3>Gender  : </h3>  <%= content.gender %> </p>
+         <p><h3>Probability : </h3> <%= content.probability %> </p>
+    </div>
 </body>
 </html>
